@@ -33,3 +33,4 @@ jobs:
             ./scripts/feeds install -p luci-base
           artifact_paths: |
             bin/packages/$ARCH/base/*luci-theme-shadcn*.[ai]pk
+          release_body_path: RELEASE.md
